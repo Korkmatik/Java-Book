@@ -16,5 +16,10 @@ public class Main {
 		int laufzeit = 10;
 		double neuesKapital = meinSparbuch.getErtrag(laufzeit);
 		System.out.println("Kapital nach 10 Jahren: " + neuesKapital);
+		
+		Utilities.zeige(meinSparbuch);
+		Utilities.zeige(meinSparbuch);
+		Utilities.zeige(meinSparbuch);
+		Utilities.zeige(meinSparbuch);
 	}
 }

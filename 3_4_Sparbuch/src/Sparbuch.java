@@ -1,5 +1,5 @@
 
-public class Sparbuch {
+public class Sparbuch implements Anzeigbar {
 	private String kontonummer;
 	private double kapital;
 	private double zinssatz;
@@ -50,6 +50,13 @@ public class Sparbuch {
 	public double getZinssatz()
 	{
 		return zinssatz;
+	}
+
+	@Override
+	public void zeige() {
+		System.out.println("Kontonummer: " + kontonummer);
+		System.out.println("Kapital: " + kapital);
+		System.out.println("Zinssatz: " + zinssatz);
 	}
 }
 
