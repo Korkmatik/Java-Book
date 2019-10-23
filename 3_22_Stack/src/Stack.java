@@ -4,6 +4,9 @@ public class Stack {
 	
 	void push(Node node)
 	{
+		if (node == null) {
+			return;
+		}
 		
 		// No elements on the stack
 		if (top == null) 
